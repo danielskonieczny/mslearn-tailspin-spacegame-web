@@ -1,4 +1,6 @@
 
+[![Build Status](https://dev.azure.com/danielskonieczny0832/Space%20Game%20-%20web%20-%20Workflow/_apis/build/status/mslearn-tailspin-spacegame-web?branchName=master)](https://dev.azure.com/danielskonieczny0832/Space%20Game%20-%20web%20-%20Workflow/_build/latest?definitionId=2&branchName=master)
+
 Execise: https://docs.microsoft.com/en-us/learn/modules/create-a-build-pipeline/10-summary
 
 # Contributing
