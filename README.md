@@ -1,4 +1,6 @@
 
+Execise: https://docs.microsoft.com/en-us/learn/modules/create-a-build-pipeline/10-summary
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
