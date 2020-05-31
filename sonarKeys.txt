@@ -1,0 +1,23 @@
+#SONAR_PROJECT_KEY=(your SonarCloud project key)
+#SONAR_ORGANIZATION=(your SonarCloud organization)
+#SONAR_LOGIN=(your login token)
+#example:
+#SONAR_PROJECT_KEY=mara_mslearn-tailspin-spacegame-web2
+#SONAR_ORGANIZATION=space-game-web-333
+#SONAR_LOGIN=abcdefabcdefabcdefabcdefabcdefabcdef
+
+#1: set variables:
+
+SONAR_PROJECT_KEY=danielskonieczny_mslearn-tailspin-spacegame-web
+SONAR_ORGANIZATION=danielskonieczny
+SONAR_LOGIN=02bb07de58d9e08b1eb87f53e1a25b1a238f4de8
+
+#2: executes sonarcube scan:
+
+$HOME/.dotnet/tools/dotnet-sonarscanner begin \
+  /k:"$SONAR_PROJECT_KEY" \
+  /d:sonar.host.url="https://sonarcloud.io" \
+  /d:sonar.login="$SONAR_LOGIN" \
+  /d:sonar.cs.opencover.reportsPaths="./Tailspin.SpaceGame.Web.Tests/TestResults/Coverage/coverage.opencover.xml" \
+  /d:sonar.exclusions="**/wwwroot/lib/**/*" \
+  /o:"$SONAR_ORGANIZATION"
