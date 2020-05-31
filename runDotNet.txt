@@ -1,0 +1,2 @@
+dotnet build --configuration Release
+otnet run --configuration Release --no-build --project Tailspin.SpaceGame.Web
